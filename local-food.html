@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Food Guide | Inside Arusha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo"><a href="index.html">Inside<span>Arusha</span></a></div>
+            
+            <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav class="main-navigation" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="things-to-do.html">Things to Do</a></li>
+                    <li><a href="local-food.html" class="active">Local Food</a></li>
+                    <li><a href="blog.html">Travel Blog</a></li>
+                </ul>
+            </nav>
+            <div class="header-action"><a href="https://wa.me/25574759387" target="_blank" class="btn-book">Book a Tour</a></div>
+        </div>
+    </header>
+
+    <!-- Food Hero Section -->
+    <section class="tour-hero food-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80') !important;">
+        <div class="tour-hero-overlay">
+            <div class="section-container">
+                <span class="tour-badge animate-badge">Arusha Culinary Guide</span>
+                <h1 class="tour-main-title">Taste of Chuga: Ultimate Local Food Experience</h1>
+                <p class="tour-meta-info">🍖 Authentic Flavors | 🌶️ Local Hotspots | 💰 Budget-Friendly & Premium Spots</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="tour-details-section">
+        <div class="section-container tour-grid-layout">
+            
+            <!-- Upande wa Kushoto: Maelezo ya Vyakula na Kadi Zake -->
+            <div class="tour-main-content">
+                
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 20px;">
+                    
+                    <!-- Kadi ya 1: Nyama Choma -->
+                    <div style="background: #ffffff !important; border-radius: 24px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important; overflow: hidden !important; border: 1px solid #eee !important; display: flex; flex-direction: column;">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80" alt="Nyama Choma" style="width: 100% !important; height: 200px !important; object-fit: cover !important; display: block !important;">
+                        <div style="padding: 24px !important;">
+                            <div class="luxury-card-badge">Top Recommendation</div>
+                            <h3 style="margin-top: 10px; font-size: 20px; color: #111;">Authentic Nyama Choma</h3>
+                            <p style="font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;">
+                                Perfectly seasoned goat or beef, slow-grilled over local charcoal. Served hot with kachumbari (tomato & onion salad) and ugali.
+                            </p>
+                            <p style="font-size: 13px; font-weight: 600; color: #e67e22; margin: 0;">📍 Best Spots: Khan's BBQ, Arusha Night Market</p>
+                        </div>
+                    </div>
+
+                    <!-- Kadi ya 2: Chips Mayai -->
+                    <div style="background: #ffffff !important; border-radius: 24px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important; overflow: hidden !important; border: 1px solid #eee !important; display: flex; flex-direction: column;">
+                        <img src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=500&q=80" alt="Chips Mayai" style="width: 100% !important; height: 200px !important; object-fit: cover !important; display: block !important;">
+                        <div style="padding: 24px !important;">
+                            <div class="luxury-card-badge">Street Food King</div>
+                            <h3 style="margin-top: 10px; font-size: 20px; color: #111;">Chips Mayai (Omelette)</h3>
+                            <p style="font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;">
+                                The legendary Tanzanian comfort food—freshly fried potatoes bound together with beaten eggs into a delicious omelette.
+                            </p>
+                            <p style="font-size: 13px; font-weight: 600; color: #e67e22; margin: 0;">📍 Best Spots: Local street vendors & local pubs</p>
+                        </div>
+                    </div>
+
+                    <!-- Kadi ya 3: Local Brew & Coffee -->
+                    <div style="background: #ffffff !important; border-radius: 24px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important; overflow: hidden !important; border: 1px solid #eee !important; display: flex; flex-direction: column;">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80" alt="Coffee" style="width: 100% !important; height: 200px !important; object-fit: cover !important; display: block !important;">
+                        <div style="padding: 24px !important;">
+                            <div class="luxury-card-badge">Premium Drinks</div>
+                            <h3 style="margin-top: 10px; font-size: 20px; color: #111;">Mt. Meru Organic Coffee</h3>
+                            <p style="font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;">
+                                Enjoy aromatic coffee freshly roasted from the volcanic soils of Mt. Meru, or taste the local Tanzanian safari lager.
+                            </p>
+                            <p style="font-size: 13px; font-weight: 600; color: #e67e22; margin: 0;">📍 Best Spots: Kitamu Coffee, Local Cafés</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Upande wa Kulia: Sidebar ya Kioo (Glassmorphism) kwa ajili ya Food Tour Booking -->
+            <div class="tour-sidebar">
+                <div class="booking-sticky-box high-end-glassbox" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                    <h4>Book a Food Safari</h4>
+                    <p style="font-size: 14px; color: #555; margin-bottom: 20px;">Want a guided tour to the hidden local food joints safely with a local guide?</p>
+                    
+                    <ul class="inclusion-list premium-inclusions" style="width: 100%; text-align: left; margin-bottom: 24px;">
+                        <li><span>✔️</span> Private Guide (English/Swahili)</li>
+                        <li><span>✔️</span> Safe Transport to Street Spots</li>
+                        <li><span>✔️</span> 3+ Food & Drink Tastings Included</li>
+                        <li><span>✔️</span> 100% Authentic Chuga Vibe</li>
+                    </ul>
+                    
+                    <a href="https://wa.me/25574759387?text=Hi!+I'm+interested+in+the+Arusha+Food+Tour" class="btn-sidebar-book luxury-btn" target="_blank" style="width: auto !important; min-width: 220px;">
+                        🍖 Join Food Tour via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Inside<span>Arusha</span></h3>
+                <p>Your ultimate local guide to exploring the safari capital of Tanzania. Discover hidden gems, authentic food, and unforgettable adventures.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="things-to-do.html">Things to Do</a></li>
+                    <li><a href="local-food.html">Local Food</a></li>
+                    <li><a href="blog.html">Travel Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Connect With Us</h4>
+                <p>📍 Arusha, Tanzania</p>
+                <p>📧 info@insidearusha.com</p>
+                <p>📞 +255 747 593 87</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Inside Arusha. Built for travelers. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-menu');
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('is-active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
