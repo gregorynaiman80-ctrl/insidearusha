@@ -1407,3 +1407,27 @@ html {
     flex-direction: column !important;
     justify-content: space-between !important;
 }
+.whatsapp-btn {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    background-color: #25d366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128c7e;
+    transform: scale(1.05);
+    color: white;
+}
